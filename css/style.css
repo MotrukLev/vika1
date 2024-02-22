@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0px, auto;
+    font-family: montserrat;
+    font-size: 16px;
+}
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 650px;
+    gap: 50px;
+}
+.links-cg, .links-photos, .links-gif, .links-lol {
+    font-size: 18px;
+}
+.links-ul-photos {
+    margin-right: -50px;
+}
+.negr {
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: 675px;
+}
+.negr:hover {
+    transform: rotate(99999999999999999999deg);
+    transition-duration: 10s;
+}
+.ftr {
+    text-align: center;
+    background-color: pink;
+    color: rgb(255, 0, 255);
+    font-weight: 900;
+    height: 150px;
+}
+.text-audio {
+    text-align: center;
+}
+.nav-links-photos {
+    font-size: 14px;
+}
+.links-ul-photos {
+    font-size: 14px;
+}
+.nav-links-photos {
+    text-align: center;
+}
+.main-photos {
+    background-color: rgb(255, 225, 230);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.photo {
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.photo:hover {
+    transform: scale(1.15);
+    transition-duration: 0.7s;
+}
+.video {
+    border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        font-size: 14px;
+    }
+    
+}
